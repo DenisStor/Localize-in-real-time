@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B7D5F46E2A6208AA00411ECA /* workApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5F46D2A6208AA00411ECA /* workApp.swift */; };
-		B7D5F4702A6208AA00411ECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5F46F2A6208AA00411ECA /* ContentView.swift */; };
+		B7D5F46E2A6208AA00411ECA /* RealmTimeLocalizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5F46D2A6208AA00411ECA /* RealmTimeLocalizeApp.swift */; };
+		B7D5F4702A6208AA00411ECA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5F46F2A6208AA00411ECA /* SettingsView.swift */; };
 		B7D5F4722A6208AB00411ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D5F4712A6208AB00411ECA /* Assets.xcassets */; };
 		B7D5F4752A6208AB00411ECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D5F4742A6208AB00411ECA /* Preview Assets.xcassets */; };
 		B7D5F47D2A62091500411ECA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7D5F47F2A62091500411ECA /* Localizable.strings */; };
-		B7D5F4822A620DE300411ECA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5F4812A620DE300411ECA /* SwiftUIView.swift */; };
+		B7D5F4862A66D81900411ECA /* SecondRandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D5F4852A66D81900411ECA /* SecondRandomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B7D5F46A2A6208AA00411ECA /* work.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = work.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7D5F46D2A6208AA00411ECA /* workApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workApp.swift; sourceTree = "<group>"; };
-		B7D5F46F2A6208AA00411ECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7D5F46A2A6208AA00411ECA /* ChangeLocalize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeLocalize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D5F46D2A6208AA00411ECA /* RealmTimeLocalizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTimeLocalizeApp.swift; sourceTree = "<group>"; };
+		B7D5F46F2A6208AA00411ECA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B7D5F4712A6208AB00411ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7D5F4742A6208AB00411ECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7D5F47E2A62091500411ECA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B7D5F4802A62091900411ECA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B7D5F4812A620DE300411ECA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B7D5F4852A66D81900411ECA /* SecondRandomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRandomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		B7D5F46B2A6208AA00411ECA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B7D5F46A2A6208AA00411ECA /* work.app */,
+				B7D5F46A2A6208AA00411ECA /* ChangeLocalize.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +56,9 @@
 		B7D5F46C2A6208AA00411ECA /* work */ = {
 			isa = PBXGroup;
 			children = (
-				B7D5F46D2A6208AA00411ECA /* workApp.swift */,
-				B7D5F46F2A6208AA00411ECA /* ContentView.swift */,
-				B7D5F4812A620DE300411ECA /* SwiftUIView.swift */,
+				B7D5F46D2A6208AA00411ECA /* RealmTimeLocalizeApp.swift */,
+				B7D5F46F2A6208AA00411ECA /* SettingsView.swift */,
+				B7D5F4852A66D81900411ECA /* SecondRandomView.swift */,
 				B7D5F47F2A62091500411ECA /* Localizable.strings */,
 				B7D5F4712A6208AB00411ECA /* Assets.xcassets */,
 				B7D5F4732A6208AB00411ECA /* Preview Content */,
@@ -77,9 +77,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B7D5F4692A6208AA00411ECA /* work */ = {
+		B7D5F4692A6208AA00411ECA /* ChangeLocalize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B7D5F4782A6208AB00411ECA /* Build configuration list for PBXNativeTarget "work" */;
+			buildConfigurationList = B7D5F4782A6208AB00411ECA /* Build configuration list for PBXNativeTarget "ChangeLocalize" */;
 			buildPhases = (
 				B7D5F4662A6208AA00411ECA /* Sources */,
 				B7D5F4672A6208AA00411ECA /* Frameworks */,
@@ -89,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = work;
+			name = ChangeLocalize;
 			productName = work;
-			productReference = B7D5F46A2A6208AA00411ECA /* work.app */;
+			productReference = B7D5F46A2A6208AA00411ECA /* ChangeLocalize.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B7D5F4652A6208AA00411ECA /* Build configuration list for PBXProject "work" */;
+			buildConfigurationList = B7D5F4652A6208AA00411ECA /* Build configuration list for PBXProject "ChangeLocalize" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B7D5F4692A6208AA00411ECA /* work */,
+				B7D5F4692A6208AA00411ECA /* ChangeLocalize */,
 			);
 		};
 /* End PBXProject section */
@@ -146,9 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7D5F4702A6208AA00411ECA /* ContentView.swift in Sources */,
-				B7D5F46E2A6208AA00411ECA /* workApp.swift in Sources */,
-				B7D5F4822A620DE300411ECA /* SwiftUIView.swift in Sources */,
+				B7D5F4702A6208AA00411ECA /* SettingsView.swift in Sources */,
+				B7D5F4862A66D81900411ECA /* SecondRandomView.swift in Sources */,
+				B7D5F46E2A6208AA00411ECA /* RealmTimeLocalizeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7D5F4652A6208AA00411ECA /* Build configuration list for PBXProject "work" */ = {
+		B7D5F4652A6208AA00411ECA /* Build configuration list for PBXProject "ChangeLocalize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7D5F4762A6208AB00411ECA /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B7D5F4782A6208AB00411ECA /* Build configuration list for PBXNativeTarget "work" */ = {
+		B7D5F4782A6208AB00411ECA /* Build configuration list for PBXNativeTarget "ChangeLocalize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7D5F4792A6208AB00411ECA /* Debug */,

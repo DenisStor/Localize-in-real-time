@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct workApp: App {
+struct RealmTimeLocalizeApp: App {
     var body: some Scene {
         WindowGroup {
             SettingsView()
